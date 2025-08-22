@@ -5,7 +5,7 @@
   padding: 2vw;
   width: 90vw; /* Or a specific width */
   height: 20vw; /* Or a specific height */
-  background: url('/IMAGES/repeating\ grid\ bright\ version.png') repeat; /* Or repeat-y, or repeat */
+  background: url('/IMAGES/repeating grid bright version.png') repeat; /* Or repeat-y, or repeat */
   background-size: 20vw 20vw; /* Adjust as needed for your pattern */
   animation: scroll-pattern 10s linear infinite; /* Define the animation */
 }
