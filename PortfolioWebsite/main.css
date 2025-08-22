@@ -1,0 +1,79 @@
+.movegrid {
+  margin-inline: auto;
+  border: 0.5vw solid rgb(0, 0, 0);
+  border-radius: 1vw;
+  padding: 2vw;
+  width: 90vw; /* Or a specific width */
+  height: 20vw; /* Or a specific height */
+  background: url('/IMAGES/repeating\ grid\ bright\ version.png') repeat; /* Or repeat-y, or repeat */
+  background-size: 20vw 20vw; /* Adjust as needed for your pattern */
+  animation: scroll-pattern 10s linear infinite; /* Define the animation */
+}
+
+/* Styles specifically for screens up to 480px wide (common phone breakpoint) */
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    padding: 10px;
+  }
+  .nametitle {
+    width: 10vw;
+  }
+}
+
+
+
+@keyframes scroll-pattern {
+  0% {
+    background-position-x: 0%; /* Start position */
+    background-position-y: 0%;
+  }
+  100% {
+    background-position-x: 20vw;
+    background-position-y: 20vw; /* End position, creates the repeating effect */
+  }
+}
+
+
+
+
+@font-face{
+  font-family: "Coolvetica";
+  src: url("/FONTS/Coolvetica\ Rg.otf");
+}
+
+
+  body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Coolvetica";
+  }
+
+  .contact{
+    font-size: 3vw;
+    position: absolute;
+    right:3.5vw;
+  }
+
+  .centerer {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    /*align-items: center; /* Centers vertically */
+  }
+
+
+  .nametitle {
+    color: rgb(0, 0, 0);
+    font-family: "Coolvetica";
+
+    position: relative;
+    top: 2vw;
+    right: -16vw;
+    width: 80vw;
+
+  
+  
+  
+
+  }
