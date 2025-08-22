@@ -44,7 +44,31 @@
   font-family: "Coolvetica";
   src: url("FONTS/Coolvetica.otf");
 }
+.holder{
+  display: flex;
+  max-width: 90vw;
+   
+}
+.artifact{
+  display: inline-block;
+  max-width: 33%;
+    margin-left: 2vw;
 
+}
+iframe {
+  width: 100%;
+    max-width: 33vw;
+    height: 28.125vw; /* 100/56.25 = 560/315 = 1.778 */
+    display: inline;
+}
+h1{
+  font-size: 5vw;
+}
+
+h2 {
+  max-width: 40vw;
+  font-size: 3vw;
+}
 
   body {
     background-color: rgb(255, 255, 255);
@@ -86,8 +110,5 @@
     left: 47vw;
     width: 50vw;
 
-  
-  
-  
 
   }
