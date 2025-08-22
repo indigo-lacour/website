@@ -51,8 +51,9 @@
 }
 .artifact{
   display: inline-block;
+  width: 33%;
   max-width: 33%;
-    margin-left: 2vw;
+  margin-left: 2vw;
 
 }
 iframe {
