@@ -44,6 +44,10 @@
   font-family: "Coolvetica";
   src: url("FONTS/Coolvetica.otf");
 }
+  body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Coolvetica", Arial, Helvetica, sans-serif;
+  }
 .holder{
   display: flex;
   max-width: 90vw;
@@ -71,10 +75,7 @@ h2 {
   font-size: 3vw;
 }
 
-  body {
-    background-color: rgb(255, 255, 255);
-    font-family: "Coolvetica";
-  }
+
 
   .contact{
     font-size: 3vw;
@@ -108,7 +109,7 @@ h2 {
 
     position: relative;
     top: 2vw;
-    left: 47vw;
+    right: -45vw;
     width: 50vw;
 
 
