@@ -43,6 +43,7 @@
 @font-face{
   font-family: "Coolvetica";
   src: url("FONTS/Coolvetica.otf");
+  src: url("FONTS/Coolvetica\ Rg.ttf");
 }
   body {
     background-color: rgb(255, 255, 255);
