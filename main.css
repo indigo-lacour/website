@@ -6,7 +6,7 @@
   width: 90vw; /* Or a specific width */
   height: 20vw; /* Or a specific height */
   max-height: 300px;
-  background: url('IMAGES/repeating grid bright version.png') repeat; /* Or repeat-y, or repeat */
+  background: url("IMAGES/repeating grid bright version.png") repeat; /* Or repeat-y, or repeat */
   background-size: 20vw 20vw; /* Adjust as needed for your pattern */
   animation: scroll-pattern 10s linear infinite; /* Define the animation */
 }
@@ -42,14 +42,41 @@
 
 @font-face{
   font-family: "Coolvetica";
-  src: url("/FONTS/Coolvetica\ Rg.otf");
+  src: url("FONTS/Coolvetica.otf");
+  src: url("FONTS/Coolvetica\ Rg.ttf");
+}
+  body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Coolvetica", Arial, Helvetica, sans-serif;
+  }
+.holder{
+  display: flex;
+  max-width: 90vw;
+   
+}
+.artifact{
+  display: inline-block;
+  width: 33%;
+  max-width: 33%;
+  margin-left: 2vw;
+
+}
+iframe {
+  width: 100%;
+    max-width: 33vw;
+    height: 28.125vw; /* 100/56.25 = 560/315 = 1.778 */
+    display: inline;
+}
+h1{
+  font-size: 5vw;
+}
+
+h2 {
+  max-width: 40vw;
+  font-size: 3vw;
 }
 
 
-  body {
-    background-color: rgb(255, 255, 255);
-    font-family: "Coolvetica";
-  }
 
   .contact{
     font-size: 3vw;
@@ -83,11 +110,8 @@
 
     position: relative;
     top: 2vw;
-    left: 47vw;
+    right: -45vw;
     width: 50vw;
 
-  
-  
-  
 
   }
